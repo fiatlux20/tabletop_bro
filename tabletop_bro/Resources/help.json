@@ -1,0 +1,7 @@
+{
+  "all": "g!help [topic]\r\ng!roll [roll request]\r\ng!gurps [search, get]\r\ng!upload [character name] [attachment]",
+  "help": "Provides a brief description and example of how to use a command.\r\nUsage: g!help [topic] e.g. 'g!help all' will print all bot commands.",
+  "roll": "Returns the result of a dice roll.\r\nUsage: g!roll [#dice to roll]d[sides]+/-/*[modifier]\r\ne.g. 'g!roll 3d6', 'g!roll 1d20', 'g!roll 1d6+3'",
+  "gurps": "Searches GURPS advantages and disadvantages for a given keyword.\r\nUsage: 'g!gurps [search] e.g. 'g!gurps Blessed'",
+  "upload": "Uploads a character sheet to the bot so that it can be easily referenced later.\r\nUsage: 'g!gurps upload [character name]' with an attached .gcs file"
+}

@@ -1,0 +1,25 @@
+{
+  "generic": "lol",
+  "generic_error": "xD",
+
+  "t_help": ":scroll: Help topic: N/A",
+  "help_not_found": "The requested help topic could not be found.",
+
+  "t_roll": "Invalid roll! :game_die:",
+  "roll_input": "Request for roll was incorrectly formatted.\r\nSee '**g!help roll**' for help.",
+  "roll_parse": "Failed to parse input.\r\nSee '**g!help roll**' for help.",
+  "roll_range": "The request for roll was out of range.\r\nSee '**g!help roll**' for help.",
+
+  "t_upload": ":pencil: Character Sheet Uploader",
+  "no_filename": "No filename was given.\r\n See '**g!help upload**' for help.",
+
+  "gurps": ":book: GURPS",
+  "too_few_args": "This command requires further arguments.\r\nSee '**g!help gurps**' for help.",
+  "bad_args": "The given argument could not be found.\r\nSee '**g!help gurps**' for help and a list of valid arguments.",
+  "t_search": ":mag_right: Search results:",
+  "t_search_no_results": ":mag_right: Search results: Not found",
+  "search_file_open": "Failed to open the XML doc. This isn't good...",
+  "search_file_read": "Failed to correctly read the XML doc.",
+  "search_no_exact": "I couldn't find the exact advantage or disadvantage.\r\nDid you mean:",
+  "search_not_found": "I couldn't find the advantage or disadvantage you searched for. See '**g!help gurps**' for help."
+}
