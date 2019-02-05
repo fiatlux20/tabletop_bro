@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE database>
+
+<database>
+    <advantage name="360 Vision">
+        <points>25 points</points>
+        <type>Physical, Exotic</type>
+        <reference>B34</reference>
+        <description>
+You have a 360 field of vision. You have no penalty to defend against attacks from the sides or rear. You can attack foes to your side or rear without making a Wild Swing, but you are at -2 to hit due to the clumsy angle of attack (note that some Karate techniques do not suffer this penalty.) Finally, you are at +5 to detect Shadowing attempts, and are never surprised by a danger that comes from behind, unless it also is concealed from sight. Extra eyes are merely a special effect of this trait---you can have any number of eyes, but the point cost remains the same.
+    
+Special Limitations:
+Easy to Hit: Your eyes are on stalks, unusually large, or otherwise more vulnerable to attack. Others can target your eyes from within their arc of vision at only -6 to hit. -20%
+        </description>
+    </advantage>
+
+    <advantage name="3D Spatial Sense">
+        <points>n/a</points>
+        <type>n/a</type>
+        <reference>B34</reference>
+        <description>
+See "Absolute Direction", p. 34
+        </description>
+    </advantage>
+
+    <advantage name="Absolute Direction">
+        <points>5 or 10 points</points>
+        <type>Mental/Physical</type>
+        <reference>B34</reference>
+        <description>
+You have an excellent sense of direction. This ability comes in two levels:
+
+Absolute Direction: You always know which way is north, and you can always retrace a path you have followed within the past month, no matter how faint or confusing. This ability does not work in environments such as interstellar space or the limbo of the astral plane, but it does work underground, underwater, and on other planets. This gives +3 to Body sense and Navigation (Air, Land, or Sea). (Note: The navigational sense that guides migratory creatures to their destination is too crude to qualify; treat it as a 0-point feature.) 5 points.
+
+3D Spatial Sense: As above, but works in three dimensions. This ability is useful in deep space – although it does not help you if you travel across dimensions. You get the skill bonuses given for Absolute Direction, plus +1 to Piloting and +2 to Aerobatics, Free Fall, and Navigation (Hyperspace or Space). 10 points.
+        </description>
+    </advantage>
+    
+    <advantage name="Absolute Timing">
+        <points>2 or 5 points</points>
+        <type>Mental</type>
+        <reference>B35</reference>
+        <description>
+You have an accurate mental clock. This ability comes in two levels, both of which are somewhat cinematic:
+
+Absolute Timing: You always know what time it is, with a precision equal to the best personal timepieces widely available in your culture (but never better than a few seconds). You can measure elapsed time with equal accuracy. Neither changes of time zone nor sleep interferes with this ability, and you can wake up at a pre-determined time if you choose. Being knocked unconscious, hypnotized, etc. may prevent this advantage from working, and time travel will confuse you until you find out what the “new” time is. 2 points.
+
+Chronolocation: As above, but time travel does not interfere  – you always know what time it is in an absolute sense. Note that things like Daylight Savings Time and calendar reform can still confuse you! When you travel in time, the GM may tell you, “You have gone back exactly 92,876.3 days,” and let you – or your character – deal with questions like, “What about leap year?” 5 points.
+        </description>
+    </advantage>
+    
+    <advantage name="Acute Senses">
+        <points>2 points/level</points>
+        <type>Physical</type>
+        <reference>B35</reference>
+        <description>
+You have superior senses. Each Acute Sense is a separate advantage that gives +1 per level to all Sense rolls (p. 358) you make – or the GM makes for you – using that one sense.
+
+Acute Hearing gives you a bonus to hear something, or to notice a sound (for instance, someone taking the safety off a gun in the dark). 2 points/level.
+
+Acute Taste and Smell gives you a bonus to notice a taste or smell (for instance, poison in your drink). 2 points/level. 
+
+Acute Touch gives you a bonus to detect something by touch (for instance, a concealed weapon when patting down a suspect).
+
+Acute Vision gives you a bonus to spot things visually, and whenever you do a visual search (for instance, looking for traps or footprints). 
+
+With the GM’s permission, you may also buy Acute Sense advantages for specialized senses such as Scanning Sense and Vibration Sense. You cannot usually buy Acute Senses in play – raise your Perception instead. However, if you lose a sense, the GM may allow you to spend earned points on other Acute Senses to compensate. For instance, if you are blinded, you might acquire Acute Hearing.
+        </description>
+    </advantage>
+    
+    <advantage name="Administrative Rank">
+        <points>n/a</points>
+        <type>n/a</type>
+        <reference>B34</reference>
+        <description> 
+See "Rank", p. 29
+        </description>
+    </advantage>
+    
+    <advantage name="Affliction">
+        <points>10 points/level</points>
+        <type>Physical, Exotic</type>
+        <reference>B35</reference>
+        <description>
+You have an attack that causes a baneful, nondamaging effect: blindness, paralysis, weakness, etc. This might be an ultra-tech beam weapon, a chemical spray, a supernatural gaze attack, or almost anything else. Specify the details when you buy the advantage. By default, Affliction is a ranged attack with 1/2D 10, Max 100, Acc 3, RoF 1, Shots N/A, and Recoil 1, although you can apply modifiers to change these statistics (see pp. 101-116).
+
+If you hit, your victim gets a HT+1 roll to resist. Apply a penalty equal to the level of the Affliction (so Affliction 1 gives an unmodified HT roll). The victim gets a bonus equal to his DR unless the Affliction has one of the following modifiers: Blood Agent, Contact Agent, Cosmic, Follow-Up, Malediction, Respiratory Agent or Sense-Based. To reduce the effects of DR, add the Armor Divisor enhancement. The victim gets a further +3 if he is beyond 1/2D range.
+If the victim makes his HT roll, he is unaffected. If he fails, he suffers the effects of the Affliction. By default, he is stunned (see p. 420). He may roll vs. HT+1 once per second to recover, but once again at a penalty equal to the level of the Affliction (DR has no effect on this roll). If your Affliction causes an effect other than stunning, this is a special enhancement (see below). You can inflict more than one effect by giving your Affliction multiple special enhancements. These effects occur simultaneously, except where noted.
+Successive Afflictions that produce the same effects are not normally cumulative. Use the single worst effect. Use the special enhancements below to create specific Afflictions. Many Attack Enhancements and Limitations (p. 102) are also logical.
+For instance, a blinding flash is Sense-Based (p. 109); most drugs have Follow-Up (p. 105), Blood Agent (p. 102), or Contact Agent (p. 103); supernatural attacks like the “evil eye” use Malediction (p. 106); and touch attacks call for Melee Attack (p. 112). If an Affliction produces two or more effects due to the special enhancements below, some of these effects may be secondary. Secondary effects occur only if the victim fails his HT roll by 5 or more or rolls a critical failure. A secondary effect is worth 1/5 as much; e.g., Secondary Heart Attack is +60% rather than +300%.
+Once you have chosen all the modifiers on your Affliction, describe the nature of the attack as detailed for Innate Attack (p. 61).
+
+Special Enhancements:
+Advantage: The victim immediately experiences the effects of a specific physical or mental advantage. Advantages with instantaneous effects affect the target once, as soon as he is hit, if he fails his HT roll; e.g., Warp immediately teleports the subject. Advantages that can be switched on and off (such as Insubstantiality) are automatically “on” for one minute per point by which the victim fails his HT roll, and are not under the subject’s control. This is worth +10% per point the advantage is worth; e.g., Insubstantiality would be +800%! If the advantage comes in levels, specify the level.
+
+Attribute Penalty: The victim suffers temporary attribute loss. This is +5% per -1 to ST or HT, or +10% per -1 to DX or IQ. For instance, an attack that caused DX-3 and IQ-2 would be +50%. Lower all skills based on reduced attributes by a like amount. ST penalties also reduce BL and damage, while IQ reductions also apply to Will and Perception. Secondary characteristics are not otherwise affected; for instance, HT reduction does not affect Basic Speed or FP. Penalties last for one minute per point by which the victim fails his HT roll.
+
+Coma: The victim collapses, profoundly unconscious, and will likely die in days unless treated; see Mortal Conditions (p. 429). +250%.
+
+Cumulative: Repeated attacks are cumulative! You must take this in conjunction with Attribute Penalty, or with an Advantage, Disadvantage, or Negated Advantage Enhancement that inflicts a “leveled” trait. +400%.
+
+Disadvantage: The victim temporarily gains one or more specific physical or mental disadvantages (but not self-imposed mental disadvantages – see p. 121). This is worth +1% per point the temporary disadvantages are worth; e.g., Paranoia [-10] is worth +10%. If a disadvantage comes in levels, specify the level. The disadvantages last for one minute per point by which the victim fails his HT roll. 
+
+Heart Attack: The victim suffers an incapacitating heart attack, and will die in minutes unless treated; see Mortal Conditions (p. 429). +300%.
+
+Incapacitation: The victim is incapacitated for a number of minutes equal to the margin of failure on his HT roll. After that, he is stunned until he can make a HT roll (roll once per second). If you combine Incapacitation with other effects (such as Irritant), those effects occur after the Incapacitation wears off; they replace the stunning and last for the same length of time the Incapacitation did. Incapacitation can take the form of any of the following: Daze, +50%; Hallucinating, +50%; Retching, +50%; Agony, +100%; Choking, +100%; Ecstasy, +100%; Seizure, +100%; Paralysis, +150%; Sleep, +150%; or Unconsciousness, +200%. See Incapacitating Conditions (p. 428) for the game effects.
+
+Irritant: The victim suffers an impairing but non-incapacitating condition instead of being stunned. It lasts for a number of minutes equal to the margin of failure on his HT roll. The possibilities are Tipsy +10%; Coughing, +20%; Drunk, +20%; Moderate Pain, +20%; Euphoria, +30%; Nauseated, +30%; Severe Pain, +40%; or Terrible Pain, +60%. For definitions, see Irritating Conditions (p. 428).
+
+Negated Advantage: The victim loses a specific advantage for one minute per point by which he failed his HT roll. There is no effect if the victim lacks that advantage! This enhancement is worth +1% per point the advantage is worth. If the advantage comes in levels, you must specify the level negated.
+
+Stunning: May only accompany Advantage, Attribute Penalty, Disadvantage, or Negated Advantage. If the victim fails to resist, he is stunned (per an unmodified Affliction) in addition to the effects of the other enhancement(s). +10%.
+        </description>
+    </advantage>
+    
+    <advantage name="Allies">
+        <points>Variable</points>
+        <type>Social</type>
+        <reference>B36</reference>
+        <description>
+Many fictional heroes have partners – loyal comrades, faithful sidekicks, trusted retainers, or lifelong friends – who accompany them on adventures. These partners are “Allies.”
+The other PCs in your adventuring party are, in a sense, “allies.” But they can be unreliable allies indeed. Often they are chance acquaintances, first encountered at a roadside tavern only hours ago. They have their own hidden goals, ethics, and motives, which might not coincide with your own. 
+An NPC Ally, on the other hand, is wholly reliable. Perhaps you fought side by side in a long war, trained under the same master, or grew up in the same village. The two of you trust each other implicitly. You travel together, fight back-to-back, share rations in hard times, and trade watches through the night.
+Your Ally is usually agreeable to your suggestions, but he is not your puppet. He will disagree with you from time to time. An Ally may try to dissuade you from a plan that seems foolish to him – and if he can’t talk you out of the plan, he may refuse to cooperate. An Ally may even cause problems for you: picking fights, landing in jail, insulting a high noble . . . Of course, the Ally will also try to bail you out when you make mistakes.
+The GM will not award you bonus character points for any play session in which you betray, attack, or unnecessarily endanger your Ally. Blatant, prolonged, or severe betrayal will break the trust between you and your Ally, and he will leave you permanently. If you drive your Ally off in this way, the points you spent on him are gone, reducing your point value. Leading your Ally into danger is all right, as long as you face the same danger and are a responsible leader.
+The point cost for an Ally depends on his power and frequency of appearance. Only PCs who take NPCs as Allies pay points for the privilege. Two PCs can be mutual “allies” for free, as can two NPCs – and NPCs never pay points for PCs as Allies. An Ally is specifically a skilled NPC associate for one PC.
+
+Ally’s Power: Consult the following table to determine how many points you must spend on your Ally. “Point Total” is the Ally’s point total expressed as a percentage of the PC’s starting points; “Cost” is the cost of the Ally. If the Ally’s point total falls between two percentages, use the higher.
+
+Point Total Cost: 25% 1 point, 50% 2 points, 75% 3 points, 100% 5 points, 150% 10 points 
+Allies built on more than 150% of the PC’s starting points are not allowed; treat such NPCs as Patrons (see p. 72). Exception: The progression above extends indefinitely for nonsentient (IQ 0) Allies; each +50% of the PC’s starting points costs a further +5 points.
+
+Ally Groups: You may purchase as many Allies as you can afford. Each Ally is normally a separate advantage, but you can treat a group of related Allies as a single trait to save space on your character sheet. For a group of individuals – with their own unique abilities and character sheets – add the costs of the individual Allies to find the cost of the group, adjust the total cost for frequency of appearance, and then apply any special modifiers. For a group of more than five identical and interchangeable allies that share a single character sheet – for instance, an army of low-grade thugs or a swarm of robot drones – find the point cost to have one member of the group as an Ally, and then multiply that cost as follows to find the cost of the group:
+
+Size of Group and Multiplier: 6-10 (x6), 11-20 (x8), 21-50 (x10), 51-100 (x12)
+
+Add ¥6 to the multiplier per tenfold increase in number (e.g., 100,000 Allies would be ¥30). The GM may require an Unusual Background (p. 96) if you wish to have hordes of Allies, or even prohibit groups larger than a certain size – although he might permit an army or other large group as a Patron. Frequency of appearance multipliers and special modifiers (if any) apply to the final cost of the entire group.
+
+Frequency of Appearance: Choose a frequency of appearance (see p. 36). If your Ally appears at the start of an adventure, he accompanies you for the duration of that adventure.
+
+Allies in Play: As with Dependents (p. 131), the GM will adjust your Ally’s abilities in order to keep his point total a fixed percentage of your own as you earn points. This will keep his value as an advantage constant. The GM decides how the Ally evolves, although he might ask you for your input. If your Ally dies through no fault of yours, the GM will not penalize you. You may put the points spent on the deceased Ally toward a new Ally. The new relationship should normally develop gradually, but the GM might allow an NPC to become an Ally on the spot if you have done something that would win him over (e.g., saving his life). This is especially appropriate in cultures where debts of honor are taken seriously! There is no penalty for amicably parting ways with your Ally. You may use the points spent on him to buy a new Ally met during play. At the GM’s discretion, you may trade in any remaining points for money (see p. 26), reflecting parting gifts.
+
+Familiars: Wizards, telepaths, and so on are often supernaturally linked to special Allies known as familiars. These are usually animals or spirits. Work out a familiar’s basic abilities with the GM, starting with the racial template of an ordinary creature of its kind. If its racial IQ is 5 or less, raise it to at least 6. Consider buying off Cannot Speak, if applicable. Most familiars have supernatural advantages: Extra Lives for a cat (it has nine lives, after all!), Mindlink and Telesend for a familiar that can transmit its thoughts, etc.
+Once you have determined the familiar’s abilities, work out its point total and its base value as an Ally. Select frequency of appearance as usual. This may be how often your familiar is available (on a failed appearance roll, it is sleeping, reporting to a demon lord, etc.) or how often its powers work (on a failure, it is no more capable than an ordinary member of its species, and cannot use or grant special powers) – your choice. 
+This kind of Ally usually has one or more special modifiers. Minion, Summonable, and Sympathy are common. Unwilling is typical of demonic or otherwise evil familiars. Take Special Abilities only if your familiar grants you powers; e.g., extra Fatigue Points with which to fuel spells or exotic or supernatural advantages that emulate the familiar’s own abilities (such as Flight, for a bird). You have no access to these abilities on a failed appearance roll; if your familiar is stunned, unconscious, or dead; or in areas where your special link does not function (GM’s decision). Buy these abilities with a -40% Accessibility limitation: “Granted by familiar.”
+You can apply the following enhancements and limitations after calculating group cost (if applicable) and multiplying for frequency of appearance:
+
+Special Enhancements:
+Minion: Your Ally continues to serve you regardless of how well you treat him. This might be due to programming, fear, awe, or lack of self-awareness. Examples include robots, zombies, and magical slaves. You are free of the usual obligation to treat your Ally well. Mistreatment might result in an inconvenient breakdown (mental or physical), but the Ally will not leave. See Puppet (p. 78) for additional options. +0% if the Minion has IQ 0 or Slave Mentality (p. 154), as the benefits of total loyalty are offset by the need for close supervision; +50% otherwise.
+
+Special Abilities: Your Ally wields power out of proportion to his point value. Perhaps he has extensive political clout or access to equipment from a TL higher than your own; perhaps he grants you exotic powers. Don’t apply this enhancement simply because your Ally has exotic abilities. If his powers are very uncommon, you will already be paying extra: your Ally requires an Unusual Background, which raises his point total and his value as an Ally. +50%. 
+
+Summonable: You conjure your Ally instead of rolling to see whether he appears at the start of an adventure. To do so, take a Concentrate maneuver and roll against frequency of appearance. On a success, your Ally appears nearby. On a failure, you cannot attempt to summon him again for one full day. Dismissing your Ally is a free action, but you may only dismiss him if he is physically present. +100%.
+
+Special Limitations:
+Sympathy: If you are stunned, knocked out, mind-controlled, etc., your Ally is similarly affected. The reverse is also true, so you should take special care of your Ally! -25% if the death of one party reduces the other to 0 HP; -50% if the death of one party automatically kills the other. If your wounds affect your Ally, but your Ally’s wounds don’t affect you, reduce these values to -5% and -10%.
+
+Unwilling: You have obtained your Ally through coercion (e.g., blackmail or magical binding). You do not have to treat him as well as you would a normal Ally. However, he hates you and is likely to act accordingly, reducing his overall reliability level. If you endanger such an Ally or order him to do something unpleasant, he may rebel (GM’s option) if the consequences of doing so would be less severe than those of doing your bid- ding. An Ally who rebels is gone, along with the points you spent on him.
+        </description>
+    </advantage>
+    
+    <advantage name="Altered Time Rate">
+        <points>100 points/level</points>
+        <type>Mental, Exotic</type>
+        <reference>B38</reference>
+        <description>
+Your rate of time perception is faster than that of a normal human. The first level of this advantage lets you experience time twice as fast as a normal – that is, you experience two subjective seconds for each real second that passes. Each level past the first increases this ratio by one: three times as fast at level 2, four times as fast at level 3, and so on.
+Each level of Altered Time Rate lets you take one additional maneuver on your turn in combat, allowing you to cast spells quickly by taking multiple Concentrate maneuvers, run very fast by taking multiple Move maneuvers, etc. Your turn doesn’t come any sooner, however! This advantage affects how fast you move when you react, but not how quickly you react in the first place.
+
+Out of combat, Altered Time Rate allows you the luxury of extensive planning, even in crisis situations, as everything seems to happen in slow motion. You may always attempt a Sense roll, or an IQ-based skill roll to make plans or recall information (GM’s decision), at no penalty to additional actions.
+Your rate of time perception is faster than that of a normal human. The first level of this advantage lets you experience time twice as fast as a normal – that is, you experience two subjective seconds for each real second that passes. Each level past the first increases this ratio by one: three times as fast at level 2, four times as fast at level 3, and so on. Each level of Altered Time Rate lets you take one additional maneuver on your turn in combat, allowing you to cast spells quickly by taking multiple Concentrate maneuvers, run very fast by taking multiple Move maneuvers, etc. Your turn doesn’t come any sooner, however! This advantage affects how fast you move when you react, but not how quickly you react in the first place. Out of combat, Altered Time Rate allows you the luxury of extensive planning, even in crisis situations, as everything seems to happen in slow motion. You may always attempt a Sense roll, or an IQ-based skill roll to make plans or recall information (GM’s decision), at no penalty to additional actions.
+        </description>
+    </advantage>
+    
+    <advantage name="Alternate Identity">
+        <points>5 or 15 points per identity</points>
+        <type>Social</type>
+        <reference>B39</reference>
+        <description>
+You have multiple, seemingly legal identities. Each time you purchase this trait, your fingerprints (or other biometrics used to verify identity in your world) are registered under another name, and you have an extra set of identity documents (birth certificate, licenses, passport, etc.) good enough to pass close inspection. These identities may also have valid credit cards and bank accounts, but you must supply the money – additional wealth is not included in the package!
+If an intelligence or law-enforcement agency attempts to identify you with no clue as to your name – for instance, using biometrics or photoanalysis – there is an equal chance for each of your identities to come up. The search will stop . . . unless they have reason to believe you are a ringer. If the search continues, your other identities will eventually surface, and you will be unmasked. Once a government agency determines who you really are, your Alternate Identities are lost for good.
+
+There are two types of Alternate Identity:
+Legal: Some spies and undercover policemen – and even supers, in settings where they are backed by the government – may have a legal Alternate Identity. This requires at least 10 points in Legal Enforcement Powers, Legal Immunity, Police Rank, Security Clearance, etc.; the GM sets the precise prerequisites. If a super has official permission to conceal his original name (e.g., to protect his family) and to hold property in his “super” name, then that is a legal Alternate Identity combined with a Secret Identity (see p. 153). 5 points.
+
+Illegal: A criminal or foreign agent may have an illegal Alternate Identity. This has the advantage of being completely unknown when you first start out, and of course it cannot be revoked by the government. On the other hand, should it ever be discovered, you will face a stiff fine, a jail sentence, or execution, depending on the time and place. 15 points.
+        </description>
+    </advantage>
+
+    <advantage name="Ambidexterity">
+        <points>5 points</points>
+        <type>Physical</type>
+        <reference>B39</reference>
+        <description>
+You can fight or otherwise act equally well with either hand, and never suffer the -4 DX penalty for using the “off” hand (see p. 14). Note that this does not allow you to take extra actions in combat – that’s Extra Attack (p. 53). Should some accident befall one of your arms or hands, assume it is the left one.
+        </description>
+    </advantage>
+
+    <advantage name="Amphibious">
+        <points>10 points</points>
+        <type>Physical, Exotic</type>
+        <reference>B40</reference>
+        <description>
+You are well-adapted to movement in the water. You do not suffer skill penalties for working underwater, and you can swim at your full Basic Move. You still require air (but see Doesn’t Breathe, p. 49). Typical features include smooth, seal-like skin and webbed fingers and toes.
+
+If you can move only in the water, take the Aquatic disadvantage (p. 145) instead.
+        </description>
+    </advantage>
+
+    <advantage name="Animal Empathy">
+        <points>5 points</points>
+        <type>Mental</type>
+        <reference>B40</reference>
+        <description>
+You are unusually talented at reading the motivations of animals. When you meet an animal, the GM rolls against your IQ and tells you what you “feel.” This reveals the beast’s emotional state – friendly, frightened, hostile, hungry, etc. – and whether it is under supernatural control. You may also use your Influence skills (see p. 359) on animals just as you would on sapient beings, which usually ensures a positive reaction.
+
+This ability frequently accompanies some level of Animal Friend (see Talent, p. 89), and often Sense of Duty (Animals) or Vow (Vegetarianism).
+        </description>
+    </advantage>
+
+    <advantage name="Animal Friend">
+        <points>n/a</points>
+        <type>n/a</type>
+        <reference>B40</reference>
+        <description>
+See Talent, p. 89
+        </description>
+    </advantage>
+
+    <advantage name="Appearance">
+        <points>n/a</points>
+        <type>n/a</type>
+        <reference>B40</reference>
+        <description>
+See Appearance Levels, p. 21
+Above-average appearance is treated as an advantage.
+        </description>
+    </advantage>
+
+    <advantage name="Arm DX">
+        <points>12 or 16 points per +1 DX</points>
+      <type>Physical, Exotic</type>
+      <reference>B40</reference>
+      <description>
+Some of your arms have extra DX relative to the DX of your body. This DX applies only to things done with those arms or hands. It does not affect Basic Speed! If a task requires two or more hands, and they don’t have the same DX, use the lowest DX. Combat skills rely on bodily DX, and do not benefit from this DX at all.
+
+Arm DX costs 12 points per +1 DX for one arm and 16 points per +1 DX for two arms. To raise the DX of three or more arms, buy up overall DX. If you bought your DX with the No Fine Manipulators limitation, apply this limitation to Arm DX as well.
+        </description>
+    </advantage>
+
+    <advantage name="Arm ST">
+        <points>3, 5, or 8 points per +1 ST</points>
+        <type>Physical, Exotic</type>
+        <reference>B40</reference>
+        <description>
+Some of your arms have extra DX relative to the DX of your body. This DX applies only to things done with those arms or hands. It does not affect Basic Speed! If a task requires two or more hands, and they don’t have the same DX, use the lowest DX. Combat skills rely on bodily DX, and do not benefit from this DX at all.
+
+Arm DX costs 12 points per +1 DX for one arm and 16 points per +1 DX for two arms. To raise the DX of three or more arms, buy up overall DX. If you bought your DX with the No Fine Manipulators limitation, apply this limitation to Arm DX as well.
+        </description>
+    </advantage>
+
+    <advantage name="Artificer">
+        <points>n/a</points>
+        <type>n/a</type>
+        <reference>B40</reference>
+        <description>
+See Talent, p. 89
+        </description>
+    </advantage>
+
+    <advantage name="Binding">
+        <points>2 points/level</points>
+        <type>Physical, Exotic</type>
+        <reference>B40</reference>
+        <description>
+You have an attack that can hold your target in place. Specify how this works when you buy the advantage: entangling your victim in vines, tying him up with webs, freezing him inside a block of ice, turning the ground to quicksand beneath his feet, etc.
+Binding is a ranged attack with 1/2D –, Max 100, Acc 3, RoF 1, Shots N/A, and Recoil 1. You can add modifiers to change these statistics (see pp. 101-116).
+
+On a hit, your victim is grappled (see p. 370) and rooted in place. He cannot select the Move or Change Posture maneuvers or change facing, and is at -4 to DX. The ST of this effect is equal to your Binding level, but you can layer additional attacks on a suc- cessfully bound victim. Each extra layer gives +1 to ST.
+To break free, the victim must win a Quick Contest of ST or Escape skill against the ST of your Binding. Each attempt takes one second. If the victim fails to break free, he loses 1 FP but may try again. Alternatively, he may try to destroy the Binding. Innate Attacks hit automatically; other attacks are at -4. External attacks on the Binding take no penalty, but risk hitting the victim on a miss (see Striking Into a Close Combat, p. 392). The Binding has DR equal to 1/3 your level (rounded down). Each point of damage reduces ST by one. At ST 0, the Binding is destroyed and the victim is freed. 
+To simulate vines, webs, and so forth, add one or more of Area Effect (p. 102), Persistent (p. 107), and Wall (p. 109) – and possibly some of the special modifiers below.
+
+Special Enhancements
+Engulfing: Your attack pins the target. He cannot move his limbs or speak; his only options are to use purely mental abilities, to attack the Binding with an Innate Attack, or to try to break free using ST (not Escape skill). If he tries to break free and fails, he is only allowed a repeated attempt every 10 seconds – and on a 17 or 18, he becomes so entangled that he cannot escape on his own! +60%.
+
+Only Damaged By X: Only specific damage types can damage your Binding. +30% for one of burning, corrosion, crushing, or cutting; +20% for any two; +10% for any three.
+
+Sticky: Your Binding is treated as Persistent (p. 107), but only affects those who actually touch the original target of your attack. +20%.
+
+Unbreakable: Your Binding cannot be destroyed. The only way to escape is to break free. +40%.
+
+Special Limitations
+Environmental: Your Binding manipulates an existing condition or object in the environment, and won’t work in its absence. This is worth from -20% (victim must be touching the ground) to -40% (victim must be standing in dense vegetation), at the GM’s option.
+
+One-Shot: You cannot layer your Binding to increase its ST. -10%.
+        </description>
+    </advantage>
+    
+    <advantage name="Blessed">
+        <points>10 points or more</points>
+        <type>Mental, Supernatural</type>
+        <reference>B40</reference>
+        <description>
+You are attuned to a god, demon lord, great spirit, cosmic power, etc. This can take various forms, but in all cases, you will lose this advantage if you fail to act in accordance with your deity’s rules and values.
+
+Blessed: You sometimes receive wisdom from your deity. After communing with your god (meditating, praying, etc.) for at least one hour, you see visions or witness omens that have some bearing on future events. Work out the details with your GM; for instance, the God of Fire might require you to stare into flames for an hour, after which you hear a voice in the flames. The GM rolls secretly against your IQ to determine whether you gain any useful insight from this experience. The ritual is fatiguing, however; at the end of the hour, you lose 10 FP. As a side benefit, followers of your deity sense your special statusand react to you at +1. 10 points. 
+
+Very Blessed: As above, but your IQ roll to interpret visions is at +5 and the reaction bonus from your god’s followers is +2. 20 points.
+
+Heroic Feats: Your blessing gives you the ability to perform a particular heroic feat. Once per game session, you may add 1d to one of ST, DX, or HT (other traits, such as Basic Move, are at the GM’s discretion). You must specify which trait is boosted when you buy the advantage. This bonus lasts 3d seconds, after which your abilities revert to normal and you suffer any penalties amassed during the “heroic” period. (For instance, if your blessing boosts HP and you are reduced to -5 ¥ your normal HP but not -5 ¥ your “blessed” HP, you will die when the bonus HP wear off unless you receive some sort of healing.) 10 points.
+
+The GM may choose to allow other blessings as well.
+        </description>
+    </advantage>
+    
+    <advantage name="Brachiator">
+        <points>5 points</points>
+        <type>Physical, Exotic</type>
+        <reference>B41</reference>
+        <description>
+You can travel by swinging on vines, tree branches, ropes, chandeliers, etc. You get +2 to Climbing skill, and can move at half your Basic Move while brachiating.
+        </description>
+    </advantage>
+    
+    <advantage name="Breath-Holding">
+        <points>2 points/level</points>
+        <type>Physical, Exotic</type>
+        <reference>B41</reference>
+        <description>
+You are adept at holding your breath. Each level doubles the length of time you can do so (see Holding Your Breath, p. 351). Normal humans may not take this advantage – to be a world-record diver, learn Breath Control (p. 182). Nonhumans and supers can combine this advantage with Breath Control!
+        </description>
+    </advantage>
+    
+    <advantage name="Business Acumen">
+        <points>n/a</points>
+        <type>n/a</type>
+        <reference>B41</reference>
+        <description>
+See Talent, p. 89
+        </description>
+    </advantage>
+
+    <advantage name="Catfall">
+        <points>10 points</points>
+        <type>Physical, Exotic</type>
+        <reference>B41</reference>
+        <description>
+You subtract five yards from a fall automatically (treat this as an automatic Acrobatics success – don’t check again for it). In addition, a successful DX roll halves damage from any fall. To enjoy these benefits, your limbs must be unbound and your body free to twist as you fall.
+        </description>
+    </advantage>
+    
+    <advantage name="Chameleon">
+        <points>5 points/levl</points>
+        <type>Physical, Exotic</type>
+        <reference>B41</reference>
+        <description>
+You can change your surface pattern to blend into your surroundings. In any situation where being seen is a factor, you get +2 per level to Stealth skill when perfectly still, or +1 per level if moving. Clothing reduces this bonus to +1 per level when you are motionless, with no bonus if you are moving (unless the clothing is, in the GM’s opinion, camouflaged relative to your current environment).
+Chameleon does not normally help in the dark or against someone relying upon senses other than sight. However, you can specify that your ability is effective against a particular visual or scanning sense (e.g., Infravision or Radar) instead of normal vision.
+
+Special Enhancements
+Extended: Your ability affects more than one visual or scanning sense. Each sense beyond the first is +20%.
+
+Special Limitations
+Always On: You cannot turn this ability off. Strangers react at -1; the flickering effect is irritating. -10%.
+        </description>
+    </advantage>
+    
+    <advantage name="Channeling">
+        <points># points</points>
+        <type>Mental, Supernatural</type>
+        <reference>B41</reference>
+        <description>
+You can become a conduit for the spirit world, allowing spirits to speak through you. To do so, you must enter a trance, achieved through one minute of concentration and a Will roll (at +2 if you have Autotrance, p. 101). You are unaware of the world around you while you are in this state.
+Once you have entered your trance, any spirit in the immediate vicinity can enter your body and use it to speak or write messages. The GM controls what the spirit does or says. The spirit answers questions put to it by others, but it is not bound to tell the truth.
+
+This is a minor form of possession: the spirit can use your body only to communicate. However, if it has the Possession ability (p. 75), it is considered to be touching you, and can attempt full possession while you are in a trance. You are considered “wary,” and thus get +5 to resist.
+        </description>
+    </advantage>
+    
+    <advantage name="Charisma">
+        <points>5 points/level</points>
+        <type>Mental</type>
+        <reference>B41</reference>
+        <description>
+You have a natural ability to impress and lead others. Anyone can acquire a semblance of charisma through looks, manners, and intelligence – but real charisma is independent of these things. Each level gives +1 on all reaction rolls made by sapient beings with whom you actively interact (converse, lecture, etc.); +1 to Influence rolls (see Influence Rolls, p. 359); and +1 to Fortune-Telling, Leadership, Panhandling, and Public Speaking skills. The GM may rule that your Charisma does not affect members of extremely alien races.
+        </description>
+    </advantage>
+    
+    <advantage name="Chronolocation">
+        <points>n/a</points>
+        <type>n/a</type>
+        <reference>B41</reference>
+        <description>
+See Absolute Timing, p. 35
+        </description>
+    </advantage>
+
+    <advantage name="Claim to Hospitality">
+        <points>1 to 10 points</points>
+        <type>Social</type>
+        <reference>B41</reference>
+        <description>
+You belong to a social group that encourages its members to assist one another. When you are away from home, you may call on other members of this group for food, shelter, and basic aid.
+The point cost depends on the extent and wealth of the group. A single friend with a house in another city is worth 1 point; a small family, 2 points; a society of merchants along
+an important trade route, 5 points; and a vast alliance of wealthy figures, such as “every merchant in the world,” 10 points. In the appropriate situation, members of the group should be easy to find (14 or less after 1d-1 hours of searching), but the chance of meeting one at random is small (6 or less to meet one in a small crowd in an appropriate place).
+
+Claim to Hospitality mainly saves the cost and trouble of finding lodging while “on the road” (although if you are wealthy, you might be expected to give gifts to your hosts), but there are side benefits. 
+
+Members of the group are friendly to each other (+3 reactions), and may provide advice, introductions, and small loans, if asked. The level of assistance might occasionally approach that of Contacts (p. 44). If you expect anything more, though, buy Allies (p. 36) or Patrons (p. 72).
+
+This advantage cuts both ways. If you take it, you can be asked, when at home (at the GM’s whim), to provide NPCs with exactly the same sort of hospitality you claim while away. This may become an adventure hook! If you refuse such aid, you will eventually get a bad name and lose this advantage.
+        </description>
+    </advantage>
+    
+    <advantage name="Clairsentience">
+        <points>50 points</points>
+        <type>Mental, Supernatural</type>
+        <reference>B42</reference>
+        <description>
+You can displace all of your ranged senses (for humans: sight, hearing, and smell) to a point outside your body. This “viewpoint” must be a specific location within 10 yards. You can modify this range with Increased Range (p. 106) or Reduced Range (p. 115). You can double your range temporarily by spending 2 FP per minute.
+To initiate Clairsentience, pick the desired viewpoint (which can be inside something) and its facing, concentrate for one minute, and then make an IQ roll. If the viewpoint is out of sight, you must specify distance and direction, and the roll is at -5.
+On a success, you can use your ranged senses as if you were physically present at the viewpoint (this means you cannot sense the environment around your body!). Your vision ignores darkness penalties completely. You cannot see through solid objects, but if your viewpoint were inside (for example) a closed chest, you would see what was inside despite the lack of light. If you are using or subjected to range-dependent abilities (e.g., spells), calculate all ranges from your body, not your viewpoint. You can maintain Clairsentience for as long as you like. 
+On failure by 1, your senses go to some other viewpoint of the GM’s choosing. On any greater failure, nothing happens at all. Critical failure cripples your ability for 1d hours.
+
+To return your displaced senses, move them elsewhere, or change their facing (usually only important for vision), you must concentrate for one second and make another IQ roll.
+However, a viewpoint inside a moving object (e.g., a car) will move with that object with no special concentration on your part. You can only have one viewpoint at a time – you cannot put hearing in one location, vision in another, etc.
+
+Special Limitations
+Clairaudience: Only your sense of hearing is displaced. -30%.
+
+Clairosmia: Only your sense of smell is displaced. -60%.
+
+Clairvoyance: Only your sense of sight is displaced. -10%.
+
+ESP: Your ability is part of the ESP psi power (see p. 255). -10%.
+
+Visible: Your senses have a visible manifestation – for instance, a floating face. -10%.
+        </description>
+    </advantage>
+    
+    <advantage name="Claws">
+        <points>Variable</points>
+        <type>Physical, Exotic</type>
+        <reference>B42</reference>
+        <description>
+You have claws. This advantage modifies all your hands and feet; there is no discount for claws on only some of your limbs. There are several variations:
+Blunt Claws: Very short claws, like those of a dog. Add +1 per die to the damage you inflict with a punch or kick; e.g., 2d-3 becomes 2d-1. 3 points.
+
+Hooves: Hard hooves, like those of a horse. Add +1 per die to the damage you inflict with a kick, and give your feet (only) +1 DR. 3 points.
+
+Sharp Claws: Short claws, like those of a cat. Change the damage you inflict with a punch or kick from crushing to cutting. 5 points.
+
+Talons: Longer claws – up to 12” long. Change the damage you inflict with a punch or kick from crushing to your choice of cutting or impaling (choose before you roll to hit). 8 points.
+
+Long Talons: Huge claws, like sword blades extending from your body! Treat these as Talons, but damage is +1 per die. 11 points.
+        </description>
+    </advantage>
+    
+    <advantage name="Clerical Investment">
+        <points>5 points</points>
+        <type>Social</type>
+        <reference>B43</reference>
+        <description>
+You are an ordained priest of a recognized religion. You enjoy a number of privileges that a layman lacks, notably the authority to preside over weddings, funerals, and similar ceremonies. This gives you a +1 reaction bonus from co-religionists and those who respect your faith, and entitles you to use a title – Father, Sister, Rabbi, etc. 
+Remember that not all clerics are “good”! Aka’Ar, high priest of the unholy Cult of Set, is also a vested priest. The blessings and marriages he performs are as meaningful to his followers as those of a vicar are to his parish. And – if Set so wills – Aka’Ar can perform exorcisms as potent as those of a Christian priest, if not more so. After all, Aka’Ar has a better working knowledge of demons . . .
+
+Clerical Investment is purely social in nature. It does not confer miraculous powers. If you wish to wield divine power by proxy, take Blessed (p. 40), Power Investiture (p. 77), or True Faith (p. 94).
+
+Clerical Investment includes Religious Rank 0 (see p. 30). If you want more influence within your church, buy up your Rank.
+        </description>
+    </advantage>
+    
+    <advantage name="Clinging">
+        <points>20 points</points>
+        <type>Physical, Exotic</type>
+        <reference>B43</reference>
+        <description>
+You can walk or crawl on walls and ceilings. You can stop at any point and stick to the surface without fear of falling. Neither feat requires a roll against Climbing skill, provided the surface is one you can cling to. Move while clinging is half your Basic Move.
+If you are falling and try to grab a vertical surface to break your fall, the GM must first decide whether there is anything in reach. If there is, make a DX roll to touch the surface, and then make a ST roll at -1 per 5 yards already fallen. If you succeed, you stop your fall. Otherwise, you continue to fall – but you may subtract 5 yards from the height of the fall thanks to the slowing effect of the failed Clinging attempt. Variations in gravity affect these distances; e.g., in 0.5G, the ST roll would be at -1 per 10 yards.
+
+Special Limitations
+Specific: You can only cling to a particular substance. Common materials, such as brick, metal, rock, or wood, are -40%; uncommon materials, such as adobe, ice, or rubber, are -60%; absurd materials, such as chocolate, are -80%.
+        </description>
+    </advantage>
+
+    <advantage name="Combat Reflexes">
+        <points>15 points</points>
+        <type>Mental</type>
+        <reference>B43</reference>
+        <description>
+You have extraordinary reactions, and are rarely surprised for more than a moment. You get +1 to all active defense rolls (see Defending, p. 374), +1 to Fast-Draw skill, and +2 to Fright Checks (see Fright Checks, p. 360). You never “freeze” in a surprise situation, and get +6 on all IQ rolls to wake up, or to recover from surprise or mental “stun.” Your side gets +1 on initiative rolls to avoid a surprise attack – +2 if you are the leader. For details, see Surprise Attacks and Initiative (p. 393).
+
+Combat Reflexes is included in Enhanced Time Sense (p. 52). If you have ETS, you cannot also take Combat Reflexes.
+        </description>
+    </advantage>
+
+    <advantage name="Common Sense">
+        <points>10 points</points>
+        <type>Mental</type>
+        <reference>B43</reference>
+        <description>
+Any time you start to do something the GM feels is STUPID, he will roll against your IQ. A successful roll means he must warn you: “Hadn’t you better think about that?” This advantage lets an impulsive player take the part of a thoughtful character.
+        </description>
+    </advantage>
+
+    <advantage name="Comparmentalized Mind">
+        <points>50 points/level</points>
+        <type>Mental, Exotic</type>
+        <reference>B43</reference>
+        <description>
+Your mental coordination gives you, in effect, more than one mind. Each mind – or “compartment” – functions independently and at full capability. Your compartments are identical, but hypnotism, magic, psionics, and the like affect them separately (e.g., one compartment could be hypnotized without affecting any of the others).
+This advantage does not allow your body to perform more than one task. A normal character may select one maneuver on his turn in combat. This may be physical or mental. Each level of Compartmentalized Mind adds one extra mental maneuver to this allotment. For instance, Compartmentalized Mind 1 would let you perform one mental maneuver and one physical maneuver (e.g., Concentrate on a spell and Attack) or two mental maneuvers (e.g., Concentrate on two spells), but never more than one physical maneuver – for that, see Extra Attack (p. 53). 
+If one compartment is under external influence, roll a Quick Contest of Will to see whether it gains control of the body. The compartment currently in control of the body rolls at +1. Battling compartments may attempt to use mental powers on each other. Treat them as completely separate minds for this purpose, each with your IQ, Will, and mental abilities (such as Mind Shield).
+
+Two variations on this advantage are available for vehicles built as characters:
+Controls: Each level buys one set of controls. Controls let an operator perform his own physical or mental maneuvers using your abilities (e.g., Innate Attack or Radar), as per the rules for vehicular combat (see p. 467). The operator directs all actions of an IQ 0 vehicle with this advantage. Physical limits still apply; for instance, a vehicle can make no more attacks than it has ready weapons. Resolve conflicts between operators by rolling a Quick Contest of vehicle operation skill. 25 points/level.
+
+Dedicated Controls: As Controls, but each set of controls handles a specific task; e.g., “tail gunner.” The person manning them can’t operate anything else. 10 points/level.
+        </description>
+    </advantage>
+    
+    <advantage name="Constriction Attack">
+        <points>15 points</points>
+        <type>Physical, Exotic</type>
+        <reference>B43</reference>
+        <description>
+Your musculature is optimized for crushing your opponents – whether by “hugging” like a bear or constricting like a python. To use this ability, you must first successfully grapple your intended victim, whose Size Modifier (p. 19) cannot exceed your own. On your next turn, and each successive turn, roll a Quick Contest: your ST vs. your victim’s ST or HT, whichever is higher. If you win, your victim takes damage equal to your margin of victory; otherwise, he takes no damage.
+        </description>
+    </advantage>
+
+    <advantage name="Contact Group">
+        <points>Variable</points>
+        <type>Social</type>
+        <reference>B44</reference>
+        <description>
+You have a network of Contacts (see Contacts, below) placed throughout a particular organization or social stratum. You must specify a corporation, criminal syndicate, military unit, police department, or similar organization, or the underworld, merchants, upper class, etc. of one particular town. Broader Contact Groups are not allowed.
+You may request information from a Contact Group exactly as you would an individual Contact, using the same rules for frequency of appearance, effective skill, and reliability. The difference is that a Contact Group’s effective skill reflects ability at an entire category of skills – e.g., “business skills” if your Contact Group is a corporation, or “military skills” if your Contact Group is a military unit – as opposed to one specific skill. You must define this area of knowledge when you purchase the Contact Group, and it must be appropriate to the organization.
+
+The GM rolls against the group’s effective skill when you request any information that it could reasonably provide. However, this is an abstract success roll, not a roll against a specific skill. For instance, a police Contact Group could provide ballistics comparisons, criminal profiles, legal advice, police records, and introductions to criminals. It would not specifically use Forensics, Criminology, Law, Administration, or Streetwise skills for this, but the information provided might be appropriate to any of these “police skills.”
+To determine the point cost of a Contact Group, select its effective skill, frequency of appearance, and reliability level just as you would for a simple Contact, then multiply the resulting cost by 5.
+        </description>
+    </advantage>
+    
+</database>

@@ -13,6 +13,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="CharSheets\Theo.png" />
+    <None Remove="CharSheets\Theo_2.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Discord.Net" Version="2.0.1" />
   </ItemGroup>
 

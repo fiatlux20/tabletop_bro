@@ -262,5 +262,4 @@ __pycache__/
 
 # Bot files
 config.json
-gurps.xml
-gurps.xml.back
+CharSheets/
