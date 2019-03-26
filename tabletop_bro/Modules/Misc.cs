@@ -63,11 +63,19 @@ namespace tabletop_bro.Modules {
         [Command("upload")]
         public async Task Upload(string name = null)
         {
+            bool new_file = false;
             ulong user_id = Context.Message.Author.Id;
             string username = Context.Message.Author.Username;
+            string file = char_folder + "/" + user_id + ".xml";
             var attachment = Context.Message.Attachments;
-            var char_sheet = new CharSheet();
             var embed = new EmbedBuilder();
+
+            var settings = new XmlWriterSettings();
+            settings.Async = true;
+            settings.Indent = true;
+            settings.IndentChars = "\t";
+
+            XmlWriter writer;
 
             if (name == null) {
                 BotUtils.EmbedErrorMsg(ref embed, "t_upload", "no_filename");
@@ -78,13 +86,19 @@ namespace tabletop_bro.Modules {
             if (!Directory.Exists(char_folder))
                 Directory.CreateDirectory(char_folder);
 
-            if (!File.Exists(char_folder + "/" + username + ".json")) {
-                char_sheet.username = username;
-                char_sheet.user_id = user_id;
-
-                string json = JsonConvert.SerializeObject(char_sheet, Newtonsoft.Json.Formatting.Indented);
-                File.WriteAllText(char_folder + "/" + username + ".json", json);
+            if (!File.Exists(file)) {
+                File.Create(file);
+                new_file = true;
             }
+
+            writer = XmlWriter.Create(file, settings);
+
+            if (new_file) {
+                writer.WriteStartElement(username);
+                writer.WriteEndElement();
+            }
+
+            writer.Close();
         }
     }
 

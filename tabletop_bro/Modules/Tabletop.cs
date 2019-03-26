@@ -6,6 +6,7 @@ using System.Net;
 using System.Security.Cryptography;
 using System.Threading.Tasks;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Xml;
 
 using Discord;
@@ -26,65 +27,6 @@ namespace tabletop_bro.Modules {
         private const string VALID_CHARS = "0123456789d+-*";
 
         // roll command and helper functions
-        private static bool RollValidInput(string input)
-        {
-            bool is_valid = true, modifier = false;
-            char modifier_char = '0';
-            int d_count = 0, d_index = 0;
-            int m_count = 0, m_index = 0;
-
-            if (string.IsNullOrEmpty(input)) {
-                is_valid = false;
-                return is_valid;
-            }
-            if (!input.Contains('d') || input.Length < 2) {
-                is_valid = false;
-                return is_valid;
-            }
-
-            foreach (char c in input) {
-                if (!(VALID_CHARS.Contains(c))) {
-                    is_valid = false;
-                    return is_valid;
-                }
-
-                if (c == 'd') {
-                    d_count++;
-                }
-
-                if (c == '+' || c == '-' || c == '*') {
-                    modifier_char = c;
-                    m_count++;
-                    modifier = true;
-                }
-
-                if (d_count > 1 || m_count > 1) {
-                    is_valid = false;
-                    return is_valid;
-                }
-            }
-
-            d_index = input.IndexOf('d');
-
-            if (d_index == (input.Length - 1)) {
-                is_valid = false;
-                return is_valid;
-            }
-            if (modifier) {
-                m_index = input.IndexOf(modifier_char);
-
-                if (m_index == (input.Length - 1)) {
-                    is_valid = false;
-                    return is_valid;
-                }
-                if (Math.Abs(d_index - m_index) == 1) {
-                    is_valid = false;
-                    return is_valid;
-                }
-            }
-
-            return is_valid;
-        }
         private static char RollGetModifier(string input)
         {
             char modifier = '0';
@@ -126,8 +68,15 @@ namespace tabletop_bro.Modules {
         public async Task Roll(string message = null)
         {
             var embed = new EmbedBuilder();
+            string pattern =
+                @"^(\d+)d(\d+)$"                   + @"|" +
+                @"^(\d+)d(\d+)([-+*\/])(\d+)$"     + @"|" +
+                @"^(\d+)d(\d+)b(\d+)$"             + @"|" +
+                @"^(\d+)d(\d+)[-+*\/](\d+)b(\d+)$"
+            ;
 
-            if (!RollValidInput(message)) {
+            var rx = new Regex(pattern); // "#d#o# b#"
+            if (!rx.IsMatch(message)) {
                 BotUtils.EmbedErrorMsg(ref embed, "t_roll", "roll_input");
                 await Context.Channel.SendMessageAsync("", false, embed.Build());
                 return;

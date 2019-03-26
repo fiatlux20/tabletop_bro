@@ -47,8 +47,8 @@ namespace tabletop_bro.Modules {
             } else {
                 // This is hard-coded in case the errors.json is missing and no errors can be reported
                 title = ":exclamation: Error message not found";
-                description = "I tried to show you an error message, but I couldn't find it!" +
-                              "\r\nYou should report the command that caused this.";
+                description = "I tried to show you an error message, but I couldn't find it!" + Environment.NewLine +
+                              "You should report the command that caused this.";
 
                 embed.WithTitle(title);
                 embed.WithDescription(description);
