@@ -31,7 +31,7 @@ namespace tabletop_bro.Modules {
         {
             char modifier = '0';
 
-            if (input.Contains('+')) modifier = '+';
+            if      (input.Contains('+')) modifier = '+';
             else if (input.Contains('-')) modifier = '-';
             else if (input.Contains('*')) modifier = '*';
 
@@ -39,18 +39,13 @@ namespace tabletop_bro.Modules {
         }
         private static bool RollCheckRange(byte rolls, byte sides, byte mod)
         {
-            bool is_valid = true;
-
             if (rolls > ROLLS_MAX || sides > SIDES_MAX || mod > MODIFIER_MAX) {
-                is_valid = false;
-                return is_valid;
+                return false;
             }
-            if (rolls <= 0 || sides <= 0 || mod < -MODIFIER_MAX) {
-                is_valid = false;
-                return is_valid;
+            else if (rolls <= 0 || sides <= 0 || mod < -MODIFIER_MAX) {
+                return false;
             }
-
-            return is_valid;
+            return true;
         }
         private static byte[] RollArrayDice(byte rolls, byte sides)
         {
@@ -69,10 +64,10 @@ namespace tabletop_bro.Modules {
         {
             var embed = new EmbedBuilder();
             string pattern =
-                @"^(\d+)d(\d+)$"                   + @"|" +
-                @"^(\d+)d(\d+)([-+*\/])(\d+)$"     + @"|" +
-                @"^(\d+)d(\d+)b(\d+)$"             + @"|" +
-                @"^(\d+)d(\d+)[-+*\/](\d+)b(\d+)$"
+                @"^(\d+)d(\d+)$"                 + @"|" +
+                @"^(\d+)d(\d+)([-+*])(\d+)$"     + @"|" +
+                @"^(\d+)d(\d+)b(\d+)$"           + @"|" +
+                @"^(\d+)d(\d+)[-+*](\d+)b(\d+)$"
             ;
 
             var rx = new Regex(pattern); // "#d#o# b#"
@@ -97,8 +92,9 @@ namespace tabletop_bro.Modules {
                     sides = Convert.ToByte(message.Substring(message.IndexOf('d') + 1, message.IndexOf(operation) - (message.IndexOf('d') + 1)));
                     mod = Convert.ToByte(message.Substring(message.IndexOf(operation) + 1));
                 } else sides = Convert.ToByte(message.Substring(message.IndexOf('d') + 1));
-            } catch // fuckie wuckies
-              {
+            } 
+            catch // fuckie wuckies
+            {
                 BotUtils.EmbedErrorMsg(ref embed, "t_roll", "roll_parse");
                 await Context.Channel.SendMessageAsync("", false, embed.Build());
                 throw new ArgumentException("Parsing error in " + message + " with operator type " + operation + "\nGot rolls: " + rolls + " sides: " + sides + " mod_value: " + mod);
